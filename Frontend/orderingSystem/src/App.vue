@@ -1,7 +1,7 @@
 <template>
     <div id="app">
       <login-form />
-      jimi
+      
     </div>
   </template>
   
