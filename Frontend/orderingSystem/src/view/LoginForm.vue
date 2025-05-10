@@ -22,10 +22,11 @@
             <h1 id="title">欢迎使用基米外卖</h1>
             <div  id="input">
                 <form style="line-height: 2.5; color: #333;font-size: 20px;" action="" method="post">
-                    我是：<select  style="height: 30px;" name="identity">
+                    <div id="checkbox">我是：<select  style="height: 30px;" name="identity">
                         <option value="1">个人</option>
                         <option value="2">商家</option>
-                    </select><br>
+                        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
                     请输入用户名： <input type="text" name="username" id=""><br>
                     请输入密码： <input type="password" name="password" id=""><br>
                     <input style="height: 30px;"  type="submit" value="登录">
@@ -99,7 +100,9 @@
         body{
             background-image: url("background.jpg");
             background-size: cover;
+            text-align: right;
         }
+        
         #logo{
             width:50%;
             padding:15%,15%;
